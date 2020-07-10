@@ -1,0 +1,146 @@
+@charset "UTF-8";
+*{
+    box-sizing: border-box;
+}
+
+header{
+    width: 900px;
+    margin: 30px auto 0;
+    display: flex;
+}
+
+header a img{
+    width:150px;
+    height:150px;
+    padding: 30px;
+    background-color: #e8e8e8;
+    border-radius: 75px;
+}
+
+header nav{
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li a{
+    display: block;
+    padding: 150px 20px 0;
+    font-weight: bold;
+    color:#444;
+    text-decoration: none;
+}
+
+main{
+    
+}
+
+#paragraph{
+    width:950px;
+    margin :50px auto 0;
+}
+
+#paragraph h1{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+#paragraph p{
+    margin: 0;
+    font-size: 16px;
+}
+
+#table{
+    width: 950px;
+    margin: 50px auto;
+}
+
+#table table{
+    background-color: #eee;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    margin: 0px;
+    width:100%;
+    padding: 20px; 
+    border-spacing: 0;
+    
+}
+
+#table thead tr :first-child{
+    color: #e8a000;
+    font-size: 20px;
+}
+
+#table thead tr :nth-child(2){
+    color: #333;
+}
+
+#table table tr th,
+#table table tr td{
+    border-bottom:2px dotted #ccc;
+    text-align: left;
+    height: 2.5em;
+}
+
+#table table tbody tr th{
+    color: #777;
+}
+
+footer{
+    height: 2em;
+    background-color: #333;
+}
+
+footer p {
+    padding-top: 1em;
+    text-align: center;
+}
+
+footer p small{
+    color: #eee;
+}
+
+#form{
+    width: 520px;
+    margin: 0 auto 0;
+}
+
+#form form{
+    border: 1px solid #f00;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#form h1{
+    font-size: 20px;;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #000;
+    margin: 0;
+}
+
+#form [type="text"],
+#form textarea{
+    width: 100%;
+    padding: 1em 0.5em 1em;
+    border: none;
+    background-color: #eeeeee;
+}
+
+#form textarea{
+    height: 20em;
+}
+
+#form [type="submit"]{
+    display: block;
+    margin: 0 0 0 auto;
+    padding: 1em 2em 1em;
+    color: #fff;
+    background-color: #333;
+    border: none;
+}
